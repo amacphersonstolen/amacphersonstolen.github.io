@@ -1,0 +1,164 @@
+h1 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  left: 0;
+  position:absolute;
+  top: 65px;
+  width: 100%;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #383838;
+  font-size: 17px;
+}
+
+h3 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #383838;
+  font-size: 15px;
+}
+
+h4 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #383838;
+  font-size: 13px;
+}
+
+h5 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #383838;
+  font-size: 11px;
+}
+
+h6 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #383838;
+  font-size: 8px;
+}
+
+body {
+  background-image: url("https://m.popkey.co/dee3e0/Ep7Dm.gif");
+}
+
+header {
+  font-family: Futura;
+  background-color: transparent;
+  margin: 0% 0px 0px 5%;
+}
+
+#main-header {
+  height: 100px;
+  font-family: Helvetica Neue;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 8px;
+  
+}
+
+
+#banner {
+  display: block;
+  background-color: transparent;
+  background-image: url(http://3.bp.blogspot.com/-sG18PJmXU2E/UKO4zlUekSI/AAAAAAAAFrA/1jl_xdjiLKA/s1600/Abstarct-Light-02-FaceBook-HD-Timeline-Banner.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+  
+  
+}
+
+.womens {
+  display: block;
+  background: white;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+  
+}
+
+.mens {
+  display: block;
+  background: white;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+  
+}
+
+#styles {
+  display: block;
+  background: white;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+  position: absolute;
+  
+}
+
+#shoeImages {
+  display: block;
+  background: white;
+  opacity: 0.7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+
+
+}
+
+img {
+  opacity: 1;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+}
+
+
+footer {
+  display: block;
+  background: white;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #383838;
+  margin: 150px 0px 0px 0px;
+}
+
+
+
+

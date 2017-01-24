@@ -28,11 +28,14 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #505151;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #505151;
+}
+h1{
+  color:white;
 }
 hr {
   max-width: 100px;
@@ -43,7 +46,7 @@ hr {
 hr.light {
   border-color: white;
 }
-h1,
+
 h2,
 h3,
 h4,
@@ -146,78 +149,7 @@ p {
     color: #fdcc52;
   }
 }
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-}
-header .header-content {
-  text-align: center;
-  padding: 150px 0 50px;
-  position: relative;
-}
-header .header-content .header-content-inner {
-  position: relative;
-  max-width: 500px;
-  margin: 0 auto;
-}
-header .header-content .header-content-inner h1 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 30px;
-}
-header .header-content .header-content-inner .list-badges {
-  margin-bottom: 25px;
-}
-header .header-content .header-content-inner .list-badges img {
-  height: 50px;
-  margin-bottom: 25px;
-}
-header .device-container {
-  max-width: 300px;
-  margin: 0 auto 100px;
-}
-header .device-container .screen img {
-  border-radius: 3px;
-}
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
-  header .header-content {
-    text-align: left;
-    padding: 0;
-    height: 100vh;
-  }
-  header .header-content .header-content-inner {
-    max-width: none;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 35px;
-  }
-  header .device-container {
-    max-width: none;
-    max-height: calc(0vh);
-    margin: 100px auto 0;
-  }
-}
-@media (min-width: 992px) {
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
-}
+
 section {
   padding: 100px 0;
 }
@@ -231,16 +163,7 @@ section.download {
 section.download h2 {
   margin-top: 0;
   font-size: 50px;
-}
-section.download .badges .badge-link {
-  display: block;
-  margin-bottom: 25px;
-}
-section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-section.download .badges .badge-link img {
-  height: 60px;
+
 }
 @media (min-width: 768px) {
   section.download .badges .badge-link {
@@ -258,9 +181,11 @@ section.features .section-heading {
 }
 section.features .section-heading h2 {
   margin-top: 0;
+  color: white;
 }
 section.features .section-heading p {
   margin-bottom: 0;
+  color: white;
 }
 section.features .device-container,
 section.features .feature-item {
@@ -284,8 +209,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #505151, #505151);
+  background: linear-gradient(to left, #505151, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -302,7 +227,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url("http://sugarlips.co/wp-content/uploads/2015/11/blurred-city-lights-background-tumblr-blurred-city-lights-background-amazing-ideas-wall.jpg");
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -370,7 +295,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #222222;
+  background-color: #505151;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -394,8 +319,8 @@ footer ul li a.active {
 }
 .bg-primary {
   background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: -webkit-linear-gradient(#505151, #505151);
+  background: linear-gradient(#505151, #505151);
 }
 .text-primary {
   color: #fdcc52;
@@ -414,8 +339,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: #505151;
+  border-color: #505151;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
